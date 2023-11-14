@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Body*/
+
+body {
+    background-color: rgb(236, 232, 228);
+    text-align: center;
+}
+
+
+/* Header*/
+
+header {
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+}
+
+.Logo {
+    width: 150px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bolder;
+    color: rgb(64, 64, 64);
+}
+
+
+/*Main*/
+
+main {
+    margin: 15px;
+    padding: 25px;
+
+}
+
+h1 {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(64, 64, 64);
+    margin: 20px 0px;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+
+/*Footer*/
+
+footer {
+    margin: 30px 10px;
+    padding: 10px;
+    border-top: 1px solid black;
+
+}
+
+h2 {
+    font-size: 15px;
+    margin: 15px;
+}
+
+/*Texto*/
+
+.texto {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*Imagen*/
+
+.imagen-principal {
+    width: auto;
+}
+
+
+/*Equipo*/
+
+.equipo {
+    margin: 50px;
+    padding: 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.imagen-equipo {
+    width: 300px;
+    margin: 10px;
+    height: auto;
+}
+
+/*Iframe*/
+
+iframe {
+    display: inline-block;
+    margin: 10px 10px 20px 10px;
+    align-self: auto;
+}
+
+/*Forms*/
+
+form {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(44, 43, 43);
+}
+
+input[type=text],
+textarea {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid grey;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.bottom {
+
+    border: none;
+    background-color: rgb(38, 38, 38);
+    color: rgb(182, 182, 182);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+/*Contacto*/
+
+.contacto {
+    margin: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
