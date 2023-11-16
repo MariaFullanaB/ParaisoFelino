@@ -17,8 +17,6 @@ body {
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
     background-color: rgb(236, 232, 228);
     width: 100%;
     z-index: 1000;
